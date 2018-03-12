@@ -24,6 +24,8 @@
 #ifndef __API_PHYSICALOBJECT_H__
 #define __API_PHYSICALOBJECT_H__
 
+#include <vector>
+
 namespace physics
 {
 

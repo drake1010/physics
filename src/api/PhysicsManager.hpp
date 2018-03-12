@@ -25,11 +25,26 @@
 #ifndef __API_PHYSICSMANAGER_H__
 #define __API_PHYSICSMANAGER_H__
 
+// System
+#include <string>
+
+// Thirdparty
+
+// External
+#include "resources/Manager.hpp"
+
+// Project
+#include "PhysicalObject.hpp"
+
+
+
 namespace physics
 {
 
 namespace api
 {
+
+
 
 class PhysicsManager : components::resources::Manager< PhysicalObject *, std::string >
 {
@@ -44,6 +59,8 @@ public:
 private:
 
   //\todo : Do we eventually want to turn managers into singletons?
+
+
 
   
 };  

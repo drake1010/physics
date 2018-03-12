@@ -11,27 +11,21 @@
 ////////////////////////////////////////////////////////////////////////////////////
 //
 //
-//  File    : PhysicalObject.cpp
+//  File    : config.hpp
 //  Author  : Anthony Islas
-//  Purpose : Physical object implemenation
-//  Group   : Api
+//  Purpose : Configuration values derived from CMake
+//  Group   : None
 //
-//  TODO    : Anthony Islas
+//  TODO    : None
 //
 //  License : None
 //
 ////////////////////////////////////////////////////////////////////////////////////
 
-#include "PhysicalObject.hpp"
+#ifndef __CONFIG_H__
+#define __CONFIG_H__
 
-namespace physics
-{
-  
-namespace api
-{
+#cmakedefine PROJECT_VERSION  "@PROJECT_VERSION@"
+#cmakedefine TEST_RESOURCES   "@TEST_RESOURCES@"
 
-
-
-} // namespace api
-
-} // namespace physics
+#endif
